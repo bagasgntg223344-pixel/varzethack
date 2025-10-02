@@ -1,12 +1,82 @@
+/* Gaya umum */
 body {
-  background-color: #FFFFFE0;
-  font-family:
-  color: #191970;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-.kartu-profil{
-  width: 300px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color
+/* Kartu Profil */
+.kartu-profil {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.kartu-profil:hover {
+    transform: scale(1.05);
+}
+
+/* Foto Profil */
+.kartu-profil img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2196f3;
+    margin-bottom: 15px;
+}
+
+/* Judul dan teks */
+.kartu-profil h1 {
+    font-size: 22px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.kartu-profil p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Link Instagram */
+.kartu-profil a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #e91e63;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: background 0.3s;
+    margin-bottom: 15px;
+}
+
+.kartu-profil a:hover {
+    background: #c2185b;
+}
+
+/* Tombol interaktif */
+#sapabutton {
+    display: inline-block;
+    background: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#sapabutton:hover {
+    background: #1976d2;
+}
+
   
